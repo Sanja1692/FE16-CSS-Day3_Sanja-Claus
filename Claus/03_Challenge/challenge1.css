@@ -51,8 +51,10 @@ ul {
 
 .hero {
 
-    background-image: url(https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-image: url(https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80);
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
     width: 99%;
     height: 500px;
     margin: 10px 5px;
@@ -80,14 +82,14 @@ ul {
 .main {
 
     width: 99%;
-    height: 800px;
+    height: 700px;
     display: flex;
-    justify-content: center;
-    align-content: space-evenly;
-    flex-direction: row;
+
+    /* align-content: flex-start; */
+    /* flex-direction: row; */
     /* flex-wrap: wrap; */
-    align-items: stretch;
-    align-self: stretch;
+    justify-content: space-evenly;
+    /* align-self: stretch; */
 
     overflow: hidden;
 }
@@ -95,7 +97,7 @@ ul {
 .insideMain {
 
    width: 25%;
-   height: 25%;
+
 
 }
 
