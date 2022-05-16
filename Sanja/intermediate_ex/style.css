@@ -1,1 +1,54 @@
-.container {}
+#first {
+    text-align: nospace;
+    margin: 0;
+    border-bottom: 10px solid black;
+}
+
+.flex-box {
+    margin: 10%;
+    border: 10px bold black;
+    width: 80%;
+    height: 80%;
+}
+
+.item {
+    background-color: lightcyan;
+}
+
+.flex-1 {
+    background-color: lightgoldenrodyellow;
+    border-bottom: 10px bold black;
+}
+
+.flex-2 {
+    display: flex;
+    background-color: lightpink;
+}
+
+.flex-3 {
+    display: flex;
+    background-color: aqua;
+}
+
+.kl {
+    font-size: 0.7rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.thick {
+    border-bottom: 10px solid black;
+}
+
+
+/* .thick-row {
+    th,
+    td {
+      border-top-width: 5px;
+    } */
